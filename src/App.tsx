@@ -1,7 +1,9 @@
+import { Wheat } from './components/ui/Wheat/Wheat';
+
 function App() {
   return (
     <div>
-      <h1>Wheat Clicker</h1>
+      <Wheat width="320px" height="320px" />
     </div>
   );
 }

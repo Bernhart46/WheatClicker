@@ -1,0 +1,40 @@
+.wheat {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  transition-duration: 0s;
+  cursor: pointer;
+}
+
+.wheat svg {
+  position: absolute;
+  transition-duration: 0.1s;
+}
+
+.wheat svg:first-of-type {
+  filter: brightness(85%);
+  transform: rotateZ(-15deg) scale(0.8);
+  top: -79px;
+  left: -85px;
+}
+
+.wheat:hover > svg:first-of-type {
+  transform: rotateZ(-15deg) scale(1);
+  top: -100px;
+  left: -90px;
+}
+
+.wheat:hover > svg:last-of-type {
+  transform: scale(1.2);
+}
+
+.wheat:active > svg:first-of-type {
+  transform: rotateZ(-15deg) scale(0.8);
+  top: -79px;
+  left: -85px;
+}
+
+.wheat:active > svg:last-of-type {
+  transform: scale(1);
+}
