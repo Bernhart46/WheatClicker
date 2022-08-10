@@ -1,0 +1,22 @@
+.nav-button {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition-duration: 0.05s;
+  overflow: hidden;
+}
+
+.nav-button:hover {
+  filter: brightness(90%);
+}
+
+.nav-button:active {
+  filter: brightness(80%);
+  transform: translateY(2px) translateX(-2px);
+}
+#nav-button-svg-shadow {
+  transition-duration: 0.05s;
+}
+.nav-button:active #nav-button-svg-shadow {
+  opacity: 0;
+}

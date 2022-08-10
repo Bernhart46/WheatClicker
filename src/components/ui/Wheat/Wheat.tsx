@@ -4,7 +4,7 @@ type WheatProps = {
   height: string;
 };
 //transform="scale(-1 1)"
-export const Wheat = ({ width, height }: WheatProps) => {
+const Wheat = ({ width, height }: WheatProps) => {
   return (
     <div style={{ width, height }} className="wheat">
       {svg}
@@ -96,3 +96,5 @@ const svg = (
     </svg>
   </>
 );
+
+export default Wheat;
