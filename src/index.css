@@ -1,5 +1,7 @@
 body {
   margin: 0;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,6 +13,9 @@ body {
   -moz-user-select: none; /* Firefox all */
   -ms-user-select: none; /* IE 10+ */
   user-select: none; /* Likely future */
+  background-image: url('https://img.freepik.com/premium-vector/mill-farm-flat-cartoon-illustration_133260-1584.jpg?w=2000');
+  background-size: cover;
+  background-position: center right;
 }
 
 code {
