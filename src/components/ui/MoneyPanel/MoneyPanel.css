@@ -1,0 +1,16 @@
+.money-panel {
+  width: 400px;
+  height: 75px;
+  border: solid black 1px;
+  border-top: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: white;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 8px;
+}
