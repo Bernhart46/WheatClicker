@@ -13,46 +13,46 @@ export const menuButtonList: ButtonListItem[] = [
   {
     name: 'Tools',
     navSide: 'left',
-    svg: () => HoeIconSvg({ width: '50px', height: '50px' }),
+    svgIcon: () => HoeIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Chefs',
     navSide: 'left',
-    svg: () => CookIconSvg({ width: '50px', height: '50px' }),
+    svgIcon: () => CookIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Inventory',
     navSide: 'left',
-    svg: () => ChestIconSvg({ width: '45px', height: '45px' }),
+    svgIcon: () => ChestIconSvg({ width: '45px', height: '45px' }),
   },
   {
     name: 'Achievements',
     navSide: 'bottom',
-    svg: () => CupIconSvg({ width: '50px', height: '50px' }),
+    svgIcon: () => CupIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Datas',
     navSide: 'bottom',
-    svg: () => DataIconSvg({ width: '45px', height: '45px' }),
+    svgIcon: () => DataIconSvg({ width: '45px', height: '45px' }),
   },
   {
     name: 'Options',
     navSide: 'bottom',
-    svg: () => OptionsIconSvg({ width: '50px', height: '50px' }),
+    svgIcon: () => OptionsIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Shop',
     navSide: 'right',
-    svg: () => DollarIconSvg({ width: '50px', height: '50px' }),
+    svgIcon: () => DollarIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Potions',
     navSide: 'right',
-    svg: () => PotionIconSvg({ width: '40px', height: '40px' }),
+    svgIcon: () => PotionIconSvg({ width: '40px', height: '40px' }),
   },
   {
     name: 'Info',
     navSide: 'right',
-    svg: () => InfoIconSvg({ width: '40px', height: '40px' }),
+    svgIcon: () => InfoIconSvg({ width: '40px', height: '40px' }),
   },
 ];

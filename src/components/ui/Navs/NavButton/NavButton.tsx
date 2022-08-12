@@ -4,7 +4,7 @@ import { navButtonSvg } from 'components/svgs/nav-button.svg';
 import { useAppDispatch, useAppSelector } from 'store/hooks';
 import { closeModal, openModal } from 'store/slices/modalSlice';
 
-export const NavButton = ({ name, svg }: NavButtonProps) => {
+export const NavButton = ({ name, svgIcon }: NavButtonProps) => {
   const dispatch = useAppDispatch();
   const title = useAppSelector((state) => state.modalReducer.title);
 
@@ -27,7 +27,7 @@ export const NavButton = ({ name, svg }: NavButtonProps) => {
           width: '50px',
           height: '50px',
         })}
-        {svg()}
+        {svgIcon()}
       </div>
     </>
   );

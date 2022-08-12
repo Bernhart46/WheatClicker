@@ -4,7 +4,7 @@ import Wheat from './components/ui/Wheat/Wheat';
 import { MoneyPanel } from 'components/ui/MoneyPanel/MoneyPanel';
 import { store } from 'store/store';
 import { Provider } from 'react-redux';
-import { Modal } from 'components/ui/window/Modal';
+import { Modal } from 'components/ui/Window/Modal';
 
 function App() {
   return (
