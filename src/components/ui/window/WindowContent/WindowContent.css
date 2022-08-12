@@ -1,0 +1,51 @@
+.tools-window {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 50% 50%;
+  gap: 10px;
+}
+.tool {
+  display: grid;
+  grid-template-columns: 4fr 7.5fr;
+  grid-template-rows: repeat(2, 1fr) 2.5fr;
+  gap: 10px;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+.tool div {
+  background-color: #945951;
+}
+.tool-name {
+  grid-area: 1 / 1 / 2 / 2;
+  border-radius: 5px;
+}
+.tool-level {
+  grid-area: 1 / 2 / 2 / 3;
+  border-radius: 5px;
+}
+.tool-picture {
+  grid-area: 2 / 1 / 4 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: none !important;
+}
+.tool-value {
+  grid-area: 2 / 2 / 3 / 3;
+  border-radius: 5px;
+}
+.tool-button {
+  grid-area: 3 / 2 / 4 / 3;
+  border-radius: 20px;
+  border: solid 3px #7b4f49;
+  cursor: pointer;
+}
+/* line-height alternative*/
+.tool div::before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
