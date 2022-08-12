@@ -10,12 +10,12 @@ export const NavBarButtonContainer = ({
   return (
     <div className={`${navBarSide}-nav nav-button-container`}>
       {buttonList.map((button) => {
-        const { name, navSide, onClick, svg } = button;
+        const { name, navSide, svg } = button;
         if (navSide !== navBarSide) return null;
 
         return (
           <React.Fragment key={name}>
-            <NavButton name={name} onClick={onClick} svg={svg} />
+            <NavButton name={name} svg={svg} />
           </React.Fragment>
         );
       })}

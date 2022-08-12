@@ -13,55 +13,46 @@ export const menuButtonList: ButtonListItem[] = [
   {
     name: 'Tools',
     navSide: 'left',
-    onClick: () => {},
     svg: () => HoeIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Chefs',
     navSide: 'left',
-    onClick: () => {},
     svg: () => CookIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Inventory',
     navSide: 'left',
-    onClick: () => {},
     svg: () => ChestIconSvg({ width: '45px', height: '45px' }),
   },
   {
     name: 'Achievements',
     navSide: 'bottom',
-    onClick: () => {},
     svg: () => CupIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Datas',
     navSide: 'bottom',
-    onClick: () => {},
     svg: () => DataIconSvg({ width: '45px', height: '45px' }),
   },
   {
     name: 'Options',
     navSide: 'bottom',
-    onClick: () => {},
     svg: () => OptionsIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Shop',
     navSide: 'right',
-    onClick: () => {},
     svg: () => DollarIconSvg({ width: '50px', height: '50px' }),
   },
   {
     name: 'Potions',
     navSide: 'right',
-    onClick: () => {},
     svg: () => PotionIconSvg({ width: '40px', height: '40px' }),
   },
   {
     name: 'Info',
     navSide: 'right',
-    onClick: () => {},
     svg: () => InfoIconSvg({ width: '40px', height: '40px' }),
   },
 ];

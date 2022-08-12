@@ -4,6 +4,7 @@ import Wheat from './components/ui/Wheat/Wheat';
 import { MoneyPanel } from 'components/ui/MoneyPanel/MoneyPanel';
 import { store } from 'store/store';
 import { Provider } from 'react-redux';
+import { Modal } from 'components/ui/window/Modal';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <MoneyPanel />
       <NavBarContainer buttonList={menuButtonList} />
       <Wheat width="320px" height="320px" />
+      <Modal />
     </Provider>
   );
 }
