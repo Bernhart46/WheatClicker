@@ -1,6 +1,4 @@
-import { svgProps } from './svg.type';
-
-export const NavBarSvg = ({ width, height }: svgProps) => (
+export const NavBarSvg = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -9,7 +7,7 @@ export const NavBarSvg = ({ width, height }: svgProps) => (
     height="300"
     viewBox="0 0 942 300"
     xmlSpace="preserve"
-    style={{ width, height, transform: 'scale(-1, 1)' }}
+    style={{ width: '255px', height: '83px', transform: 'scale(-1, 1)' }}
   >
     <path
       vectorEffect="non-scaling-stroke"

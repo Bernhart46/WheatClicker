@@ -1,6 +1,6 @@
-import { svgColors, svgProps } from '../svg.type';
+import { svgColors } from '../svg.type';
 
-export const PotionIconSvg = ({ width, height }: svgProps) => (
+export const PotionIconSvg = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -9,7 +9,13 @@ export const PotionIconSvg = ({ width, height }: svgProps) => (
     height="500"
     viewBox="0 0 500 500"
     xmlSpace="preserve"
-    style={{ width, height, position: 'relative', top: '-51px', left: '5px' }}
+    style={{
+      width: '40px',
+      height: '40px',
+      position: 'relative',
+      top: '-51px',
+      left: '5px',
+    }}
   >
     <path
       vectorEffect="non-scaling-stroke"

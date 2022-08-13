@@ -7,7 +7,7 @@ export const ShovelSvg = () => (
     xmlSpace="preserve"
     style={{ height: '100%', width: '100%' }}
   >
-    <g fill="#959595" strokeWidth="2" stroke="#535353">
+    <g fill="#959595" strokeWidth="1" stroke="#535353">
       <path
         vectorEffect="non-scaling-stroke"
         transform="matrix(1.09 1.09 -.89 .89 97.09 400.41)"
@@ -25,7 +25,7 @@ export const ShovelSvg = () => (
       transform="matrix(.31 .31 -5.64 5.64 274.62 221.33)"
       d="M-16.612-16.612h33.224v33.224h-33.224z"
       stroke="#613c23"
-      strokeWidth="2"
+      strokeWidth="1"
       fill="#ad7350"
     />
     <g strokeWidth="1" fill="#959595" stroke="#535353">

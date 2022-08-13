@@ -35,7 +35,7 @@ export const HoeSvg = () => (
       <g
         strokeLinecap="round"
         strokeLinejoin="round"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
         fill="none"
       >
         <path

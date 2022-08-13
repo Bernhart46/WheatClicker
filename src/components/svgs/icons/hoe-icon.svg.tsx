@@ -1,6 +1,6 @@
-import { svgColors, svgProps } from '../svg.type';
+import { svgColors } from '../svg.type';
 
-export const HoeIconSvg = ({ width, height }: svgProps) => (
+export const HoeIconSvg = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -9,7 +9,13 @@ export const HoeIconSvg = ({ width, height }: svgProps) => (
     height="500"
     viewBox="0 0 500 500"
     xmlSpace="preserve"
-    style={{ width, height, position: 'relative', top: '-53px', left: '2px' }}
+    style={{
+      width: '50px',
+      height: '50px',
+      position: 'relative',
+      top: '-53px',
+      left: '2px',
+    }}
   >
     <path
       vectorEffect="non-scaling-stroke"

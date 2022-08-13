@@ -1,6 +1,6 @@
-import { svgColors, svgProps } from '../svg.type';
+import { svgColors } from '../svg.type';
 
-export const ChestIconSvg = ({ width, height }: svgProps) => (
+export const ChestIconSvg = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -9,7 +9,13 @@ export const ChestIconSvg = ({ width, height }: svgProps) => (
     height="500"
     viewBox="0 0 500 500"
     xmlSpace="preserve"
-    style={{ width, height, position: 'relative', top: '-49px', left: '8px' }}
+    style={{
+      width: '45px',
+      height: '45px',
+      position: 'relative',
+      top: '-49px',
+      left: '8px',
+    }}
   >
     <path
       vectorEffect="non-scaling-stroke"

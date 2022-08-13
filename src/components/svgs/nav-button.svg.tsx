@@ -1,6 +1,4 @@
-import { svgProps } from './svg.type';
-
-export const navButtonSvg = ({ width, height }: svgProps) => (
+export const navButtonSvg = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     xmlnsXlink="http://www.w3.org/1999/xlink"
@@ -9,7 +7,7 @@ export const navButtonSvg = ({ width, height }: svgProps) => (
     height="500"
     viewBox="0 0 500 500"
     xmlSpace="preserve"
-    style={{ width, height }}
+    style={{ width: '50px', height: '50px' }}
   >
     <defs></defs>
     <g

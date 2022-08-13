@@ -23,10 +23,7 @@ export const NavButton = ({ name, svgIcon }: NavButtonProps) => {
         onClick={handleClick_ToOpenModalWindow}
         title={name}
       >
-        {navButtonSvg({
-          width: '50px',
-          height: '50px',
-        })}
+        {navButtonSvg()}
         {svgIcon()}
       </div>
     </>
