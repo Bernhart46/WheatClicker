@@ -1,12 +1,12 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { PayloadAction } from '@reduxjs/toolkit';
 
-interface ModalSlice {
+interface ModalState {
   isOn: boolean;
   title: string;
 }
 
-const initialState: ModalSlice = {
+const initialState: ModalState = {
   isOn: false,
   title: '',
 };

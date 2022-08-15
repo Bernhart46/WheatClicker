@@ -1,11 +1,17 @@
+import { formatNumber } from 'shared/functions';
 import { useAppSelector } from 'store/hooks';
 import './MoneyPanel.css';
 export const MoneyPanel = () => {
-  const wheat = useAppSelector((state) => state.wheatReducer.wheat);
+  const store = useAppSelector((state) => state);
+  const { money, wheat } = store.userReducer;
+  const { wheatPerClick } = store.toolsReducer;
   return (
     <div className="money-panel">
-      <h2>Money: 100.000.000</h2>
-      <span>Wheat: {wheat}</span>
+      <h2>Money: {formatNumber(money)}</h2>
+      <span>
+        Wheat: {formatNumber(wheat)} (+
+        {formatNumber(wheatPerClick)}/click)
+      </span>
     </div>
   );
 };
