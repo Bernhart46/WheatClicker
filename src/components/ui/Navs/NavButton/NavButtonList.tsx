@@ -16,7 +16,7 @@ export const menuButtonList: ButtonListItem[] = [
     svgIcon: () => <HoeIconSvg />,
   },
   {
-    name: 'Chefs',
+    name: 'Bakery',
     navSide: 'left',
     svgIcon: () => <CookIconSvg />,
   },
@@ -46,7 +46,7 @@ export const menuButtonList: ButtonListItem[] = [
     svgIcon: () => <DollarIconSvg />,
   },
   {
-    name: 'Potions',
+    name: 'Windmill',
     navSide: 'right',
     svgIcon: () => <PotionIconSvg />,
   },

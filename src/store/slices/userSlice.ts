@@ -8,8 +8,8 @@ interface UserState {
 }
 
 const initialState: UserState = {
-  wheat: 0,
-  money: 1000000000,
+  wheat: 10000000000,
+  money: 1000,
   click: 0,
 };
 export const userSlice = createSlice({
@@ -26,9 +26,12 @@ export const userSlice = createSlice({
       state.wheat += action.payload;
       state.click++;
     },
+    decreaseWheat: (state, action: PayloadAction<number>) => {
+      state.wheat -= action.payload;
+    },
   },
 });
 
-export const { decreaseMoney, addWheat } = userSlice.actions;
+export const { decreaseMoney, addWheat, decreaseWheat } = userSlice.actions;
 
 export default userSlice.reducer;

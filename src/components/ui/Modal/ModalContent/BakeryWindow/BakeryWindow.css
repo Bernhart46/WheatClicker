@@ -1,0 +1,55 @@
+.bakery-window {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.bakery-row-1,
+.bakery-row-2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 1fr;
+  column-gap: 5px;
+}
+
+.bakery-item > div {
+  background-color: #945951;
+}
+
+.bakery-item {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 25px 1fr 30px;
+  row-gap: 5px;
+  border: solid #332321 1px;
+}
+
+.bakery-item-name {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.bakery-item-svg {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  background: none !important;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bakery-item-buy-button {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  cursor: pointer;
+}

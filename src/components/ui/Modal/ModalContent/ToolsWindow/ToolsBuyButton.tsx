@@ -87,6 +87,6 @@ const getPriceColorByPrice = (
   }
 };
 
-const getPriceColor = (price: number, money: number) => {
+export const getPriceColor = (price: number, money: number) => {
   return price <= money ? 'rgba(0,255,0,0.2)' : 'rgba(255,0,0,0.2)';
 };

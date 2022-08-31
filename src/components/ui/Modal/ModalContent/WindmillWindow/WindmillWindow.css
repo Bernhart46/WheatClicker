@@ -1,0 +1,47 @@
+.windmill-window {
+  height: 100%;
+  font-size: max(1.25vw, 1em);
+  display: grid;
+  grid-template-rows: 65px 2fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.flour-h2 {
+  background-color: #945951;
+  text-align: center;
+  height: 3rem;
+  line-height: 3rem;
+}
+
+.windmill-flour-svg {
+  width: 25%;
+  aspect-ratio: 1;
+  margin: auto;
+}
+
+.windmill-button-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  height: 100%;
+  column-gap: 10px;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.windmill-button {
+  border-radius: 20px;
+  border: solid 3px #7b4f49;
+  cursor: pointer;
+  text-align: center;
+  background-color: #945951;
+  font-weight: bold;
+}
+
+.windmill-button::before {
+  content: '';
+  display: inline-block;
+  height: 105%;
+  vertical-align: middle;
+}
