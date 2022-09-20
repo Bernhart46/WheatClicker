@@ -1,17 +1,16 @@
-import { menuButtonList } from 'components/ui/Navs/NavButton/NavButtonList';
-import { NavBarContainer } from 'components/ui/Navs/NavBarContainer';
-import Wheat from './components/ui/Wheat/Wheat';
-import { MoneyPanel } from 'components/ui/MoneyPanel/MoneyPanel';
+import { NavBarContainer } from 'ui/navs/nav-bar-container';
+import Wheat from './ui/wheat/wheat';
+import { MoneyPanel } from 'ui/money-panel/money-panel';
 import { store } from 'store/store';
 import { Provider } from 'react-redux';
-import { Modal } from 'components/ui/Modal/Modal';
+import { Modal } from 'ui/modal/modal';
 
 function App() {
   return (
     <Provider store={store}>
       <MoneyPanel />
-      <NavBarContainer buttonList={menuButtonList} />
-      <Wheat width="320px" height="320px" />
+      <NavBarContainer />
+      <Wheat />
       <Modal />
     </Provider>
   );

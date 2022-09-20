@@ -1,0 +1,41 @@
+.wheat {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  translate: -50% -70%;
+  transition-duration: 0s;
+  cursor: pointer;
+}
+
+.wheat svg {
+  position: absolute;
+  transition-duration: 0.1s;
+}
+
+.wheat svg:first-of-type {
+  filter: brightness(85%);
+  rotate: z -15deg;
+  scale: 0.8;
+  left: -66px;
+}
+
+.wheat:hover > svg:first-of-type {
+  rotate: z -15deg;
+  scale: 1;
+  translate: -5px -5px;
+}
+
+.wheat:hover > svg:last-of-type {
+  scale: 1.2;
+}
+
+.wheat:active > svg:first-of-type {
+  rotate: z -15deg;
+  scale: 0.8;
+  left: -66px;
+  translate: 0 0;
+}
+
+.wheat:active > svg:last-of-type {
+  scale: 1;
+}

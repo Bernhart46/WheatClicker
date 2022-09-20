@@ -1,8 +1,8 @@
 import { configureStore } from '@reduxjs/toolkit';
-import modalReducer from './slices/modalSlice';
-import toolsReducer from './slices/toolsSlice';
-import userReducer from './slices/userSlice';
-import inventoryReducer from './slices/inventorySlice';
+import modalReducer from './slices/modal-slice';
+import toolsReducer from './slices/tools-slice';
+import userReducer from './slices/user-slice';
+import inventoryReducer from './slices/inventory-slice';
 
 export const store = configureStore({
   reducer: {
